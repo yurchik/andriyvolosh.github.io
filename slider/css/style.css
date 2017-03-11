@@ -5,7 +5,7 @@
 #container{
     width: 800px;
     overflow: hidden;
-/*    margin: 0 auto;*/
+    margin: 0 auto;
 }
 #slides{
     width: 3400px;
