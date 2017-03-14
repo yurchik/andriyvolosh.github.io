@@ -5,16 +5,16 @@ window.onload=function (){
     function slider(){
         marginLeft=parseInt(style.marginLeft);
         if(direction==='left'){ 
-            if(slides.style.marginLeft!=='-1600px'){
-                slides.style.marginLeft=marginLeft-800+'px';
+            if(slides.style.marginLeft!=='-672px'){
+                slides.style.marginLeft=marginLeft-336+'px';
             }else{
-                slides.style.marginLeft=marginLeft-800+'px';
+                slides.style.marginLeft=marginLeft-336+'px';
                 direction='right';
             }
-        }else if(slides.style.marginLeft!=='-800px'){
-            slides.style.marginLeft=marginLeft+800+'px';
+        }else if(slides.style.marginLeft!=='-336px'){
+            slides.style.marginLeft=marginLeft+336+'px';
         }else{
-            slides.style.marginLeft=marginLeft+800+'px';
+            slides.style.marginLeft=marginLeft+336+'px';
             direction='left';
         }
     }
