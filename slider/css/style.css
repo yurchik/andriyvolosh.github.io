@@ -3,16 +3,19 @@
     padding: 0;
 }
 #container{
-    width: 800px;
+    width: 336px;
+    height: 280px;
     overflow: hidden;
     margin: 0 auto;
 }
 #slides{
-    width: 3400px;
+    width: 1344px;
     transition-property: margin-left;
     transition-duration: 0.5s;
 }
 img{
     float: left;
     display: inline;
+    width: 336px;
+    height: 280px;
 }
